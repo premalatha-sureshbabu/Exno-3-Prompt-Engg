@@ -117,18 +117,7 @@ Example: CNNs are commonly used in facial recognition systems, where they analyz
 
 ### Summary of Responses:
 
-Platform	Accuracy	Clarity	Depth	Relevance	Response Time	Technical Issues
-
-ChatGPT	9	9	9	10	Fast (~1-2s)	None
-
-Claude	8	8	8	9	Moderate (~3-4s)	None
-
-Bard	7	7	7	8	Fast (~2-3s)	Minor formatting
-Cohere Command	9	8	9	9	Moderate (~4-5s)	None
-Meta	7	6	7	7	Slow (~4-6s)	Occasional cutoff
-
-
-
+![Screenshot 2025-04-27 190527](https://github.com/user-attachments/assets/637f5162-79e6-456a-8343-2caa0b67384a)
 
 ### Result:
 Thus the Prompting tools are executed and analysed sucessfully .
