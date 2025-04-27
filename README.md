@@ -38,12 +38,12 @@ Sure! Here's a clearly written section for both the **Algorithm** and **Program*
 
 ### **Algorithm: Design and Develop a Test Scenario and Execute the Prompts under Diverse AI Platforms**
 
-Prompt:
+### Prompt:
 "Explain how a Convolutional Neural Network (CNN) works and provide an example of its application in image classification."
 
 Expected Output from Different Platforms:
 
-1. ChatGPT (2024 Version):
+### 1. ChatGPT (2024 Version):
 Response:
 A Convolutional Neural Network (CNN) is a class of deep neural networks that is commonly applied to analyze visual imagery. CNNs use convolutional layers to detect features in images, which are then pooled and passed through fully connected layers for classification. The network is trained by adjusting its filters to minimize error in its predictions.
 
@@ -57,7 +57,7 @@ Fully Connected Layer: After passing through convolution and pooling, the data i
 
 Example in Image Classification: One popular example of CNN application is in image classification tasks. For example, in the CIFAR-10 dataset, CNNs are used to classify images into 10 categories like cars, dogs, and airplanes.
 
-2. Claude (2024 Version):
+### 2. Claude (2024 Version):
 Response:
 A Convolutional Neural Network (CNN) is a deep learning architecture specifically designed for analyzing visual data, such as images and videos. It is composed of several layers, including convolutional layers, pooling layers, and fully connected layers, each performing specific functions to extract features and classify images.
 
@@ -73,7 +73,7 @@ Fully Connected Layer: After the feature extraction, the fully connected layer o
 
 Example: In the application of CNNs, one well-known example is the MNIST dataset, where CNNs classify handwritten digits from 0 to 9. The network learns the features of digits and makes predictions based on learned patterns.
 
-3. Bard (2024 Version):
+### 3. Bard (2024 Version):
 Response:
 Convolutional Neural Networks (CNNs) are a class of deep learning algorithms that have proven highly effective for tasks involving visual data, such as image classification. CNNs utilize convolutional layers to detect features in images, such as edges, textures, and shapes. These networks are trained through a process of backpropagation and optimization to minimize classification error.
 
@@ -87,7 +87,7 @@ Fully Connected Layers: These layers take the pooled features and classify them 
 
 Example: An example of CNNs in action is in classifying objects from the CIFAR-100 dataset. CNNs are trained to recognize 100 different object categories, ranging from animals to everyday items.
 
-4. Cohere Command (2024 Version):
+### 4. Cohere Command (2024 Version):
 Response:
 A Convolutional Neural Network (CNN) is a powerful architecture in deep learning that excels in processing grid-like data, most notably images. The network applies filters to an input image to extract features that can later be used for classification or other tasks.
 
@@ -101,7 +101,7 @@ Fully Connected Layers: These layers perform the final classification by analyzi
 
 Example in Image Classification: CNNs are particularly effective at classifying images in datasets like ImageNet, where CNNs are trained to identify thousands of different objects in images. For example, a CNN trained on ImageNet can recognize a wide range of objects, from animals to vehicles.
 
-5. Meta (2024 Version):
+### 5. Meta (2024 Version):
 Response:
 A Convolutional Neural Network (CNN) is a type of deep neural network designed to process visual information. CNNs are typically used for image classification tasks, where the network learns to recognize patterns and features in an image.
 
@@ -115,10 +115,14 @@ Fully Connected Layers: The final fully connected layers analyze the features an
 
 Example: CNNs are commonly used in facial recognition systems, where they analyze images to identify or verify faces by comparing them with a database of known faces.
 
-Summary of Responses:
+### Summary of Responses:
+
 Platform	Accuracy	Clarity	Depth	Relevance	Response Time	Technical Issues
+
 ChatGPT	9	9	9	10	Fast (~1-2s)	None
+
 Claude	8	8	8	9	Moderate (~3-4s)	None
+
 Bard	7	7	7	8	Fast (~2-3s)	Minor formatting
 Cohere Command	9	8	9	9	Moderate (~4-5s)	None
 Meta	7	6	7	7	Slow (~4-6s)	Occasional cutoff
