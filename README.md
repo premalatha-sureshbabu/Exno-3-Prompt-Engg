@@ -41,79 +41,142 @@ Sure! Here's a clearly written section for both the **Algorithm** and **Program*
 ### Prompt:
 "Explain how a Convolutional Neural Network (CNN) works and provide an example of its application in image classification."
 
-Expected Output from Different Platforms:
+### Expected Output from Different Platforms:
+### Straightforward Prompts:
+Description: Simple, direct requests that require a factual or clear response.
 
-### 1. ChatGPT (2024 Version):
-Response:
-A Convolutional Neural Network (CNN) is a class of deep neural networks that is commonly applied to analyze visual imagery. CNNs use convolutional layers to detect features in images, which are then pooled and passed through fully connected layers for classification. The network is trained by adjusting its filters to minimize error in its predictions.
+Example: "What is the capital of France?"
 
-How it Works:
+AI Performance:
 
-Convolutional Layer: This layer applies filters (also known as kernels) that move across the image, performing mathematical operations to detect features like edges, textures, or shapes.
+ChatGPT: Quick, accurate responses, often with additional context or detail.
 
-Pooling Layer: After convolution, the pooling layer reduces the dimensionality of the feature maps while retaining the important features. This step helps in reducing computational cost and avoiding overfitting.
+Claude: Provides clear, concise answers but sometimes adds nuance.
 
-Fully Connected Layer: After passing through convolution and pooling, the data is flattened and passed to a fully connected layer that produces the final output, such as a class label.
+Bard: Responsive with direct answers but may include context that goes beyond the query.
 
-Example in Image Classification: One popular example of CNN application is in image classification tasks. For example, in the CIFAR-10 dataset, CNNs are used to classify images into 10 categories like cars, dogs, and airplanes.
+Cohere Command: Effective for quick, straightforward answers with fewer embellishments.
 
-### 2. Claude (2024 Version):
-Response:
-A Convolutional Neural Network (CNN) is a deep learning architecture specifically designed for analyzing visual data, such as images and videos. It is composed of several layers, including convolutional layers, pooling layers, and fully connected layers, each performing specific functions to extract features and classify images.
+Meta: Depends on the model used, but typically provides short and to-the-point responses.
 
-How it Works:
+### Tabular Format Prompting:
+Description: Requests for data or information to be presented in a tabular format.
 
-Convolutional Layer: This layer applies multiple filters to the image, each filter detecting different features like edges, shapes, or textures.
+Example: "Create a table comparing the features of AI models."
 
-Activation Function: After convolution, a non-linear activation function (like ReLU) is applied to introduce non-linearity to the network.
+AI Performance:
 
-Pooling Layer: This layer reduces the spatial dimensions of the feature maps and helps in reducing the computational complexity.
+ChatGPT: Capable of structuring data in a readable table, offering detailed formatting.
 
-Fully Connected Layer: After the feature extraction, the fully connected layer outputs the class label for classification.
+Claude: Strong with structured data but may not always format neatly.
 
-Example: In the application of CNNs, one well-known example is the MNIST dataset, where CNNs classify handwritten digits from 0 to 9. The network learns the features of digits and makes predictions based on learned patterns.
+Bard: Can present structured data but may not always be in perfect tabular form.
 
-### 3. Bard (2024 Version):
-Response:
-Convolutional Neural Networks (CNNs) are a class of deep learning algorithms that have proven highly effective for tasks involving visual data, such as image classification. CNNs utilize convolutional layers to detect features in images, such as edges, textures, and shapes. These networks are trained through a process of backpropagation and optimization to minimize classification error.
+Cohere Command: Effective in providing structured responses but may lack advanced formatting.
 
-Working Mechanism:
+Meta: The output format can vary depending on the model, but typically straightforward.
 
-Convolution: Filters (kernels) are applied to the image, and the convolution operation produces feature maps. These maps highlight features like edges or textures.
+### Missing Word Prompting:
+Description: A prompt where a word or phrase is missing, and the AI needs to fill in the blank.
 
-Pooling: The pooling layers downsample the feature maps, reducing the spatial dimensions and focusing on the most important features.
+Example: "The capital of Italy is ___."
 
-Fully Connected Layers: These layers take the pooled features and classify them into distinct categories.
+AI Performance:
 
-Example: An example of CNNs in action is in classifying objects from the CIFAR-100 dataset. CNNs are trained to recognize 100 different object categories, ranging from animals to everyday items.
+ChatGPT: Can handle these efficiently and contextually.
 
-### 4. Cohere Command (2024 Version):
-Response:
-A Convolutional Neural Network (CNN) is a powerful architecture in deep learning that excels in processing grid-like data, most notably images. The network applies filters to an input image to extract features that can later be used for classification or other tasks.
+Claude: Accurate, filling in the blank with appropriate words based on context.
 
-How It Works:
+Bard: Good at filling in the blanks with sensible choices.
 
-Convolutional Layers: These layers use various filters to extract different features from the image. This could be as simple as detecting edges or more complex patterns as the network deepens.
+Cohere Command: Performs well but might miss contextual subtleties.
 
-Pooling Layers: Pooling layers reduce the size of the feature maps, focusing on the most important information and reducing the computation required.
+Meta: Effectiveness depends on the exact question, but generally capable.
 
-Fully Connected Layers: These layers perform the final classification by analyzing the features extracted by the convolutional and pooling layers.
+### Preceding Question Prompting:
+Description: Prompts that refer to a previous question or statement.
 
-Example in Image Classification: CNNs are particularly effective at classifying images in datasets like ImageNet, where CNNs are trained to identify thousands of different objects in images. For example, a CNN trained on ImageNet can recognize a wide range of objects, from animals to vehicles.
+Example: "Given that the capital of France is Paris, what is the capital of Italy?"
 
-### 5. Meta (2024 Version):
-Response:
-A Convolutional Neural Network (CNN) is a type of deep neural network designed to process visual information. CNNs are typically used for image classification tasks, where the network learns to recognize patterns and features in an image.
+AI Performance:
 
-How It Works:
+ChatGPT: Strong memory handling, accurately processing the context of preceding queries.
 
-Convolution: Filters are applied to the input image, extracting key features such as edges and textures.
+Claude: Capable, but memory handling can sometimes be less consistent.
 
-Pooling: After the convolutional layer, pooling is applied to reduce the dimensionality of the feature maps and retain the most significant features.
+Bard: Good at making connections between questions but occasionally lacks continuity.
 
-Fully Connected Layers: The final fully connected layers analyze the features and output the classification results.
+Cohere Command: Handles context moderately well, though it may miss nuanced connections.
 
-Example: CNNs are commonly used in facial recognition systems, where they analyze images to identify or verify faces by comparing them with a database of known faces.
+Meta: Stronger when clear references are made, but may falter with long chains.
+
+### Comparative Analysis Prompt:
+Description: Requests that require comparing two or more entities, concepts, or ideas.
+
+Example: "Compare the features of Python and Java."
+
+AI Performance:
+
+ChatGPT: Excellent at breaking down comparisons with detailed insights.
+
+Claude: Provides detailed comparisons, emphasizing pros and cons.
+
+Bard: Offers insightful, well-rounded comparisons.
+
+Cohere Command: Efficient but may offer more concise comparisons without elaborating on each point.
+
+Meta: Good for straightforward comparisons, but deeper analysis might be missed.
+
+### Experiential Perspective Prompt:
+Description: Prompts that ask for subjective or opinion-based responses, often based on personal experience.
+
+Example: "What is the best way to improve focus while studying?"
+
+AI Performance:
+
+ChatGPT: Provides a balance of subjective and generalized advice.
+
+Claude: Delivers nuanced responses, integrating empathy and reasoning.
+
+Bard: Strong in providing practical and research-backed suggestions.
+
+Cohere Command: Can offer solid advice but may lack a personal touch.
+
+Meta: Provides responses based on general knowledge, lacking personal perspective.
+
+### Everyday Functioning Prompts:
+Description: Prompts that relate to common, everyday tasks or scenarios.
+
+Example: "How do I prepare for a job interview?"
+
+AI Performance:
+
+ChatGPT: Provides detailed, step-by-step guides.
+
+Claude: Offers practical advice, often more personalized.
+
+Bard: Gives actionable, everyday advice, with examples.
+
+Cohere Command: Functional and direct, but with less personalization.
+
+Meta: Straightforward advice, focusing on general best practices.
+
+### Universal Prompt Structures:
+Description: Prompts with a flexible structure, designed to be broadly applicable.
+
+Example: "Explain the process of machine learning in simple terms."
+
+AI Performance:
+
+ChatGPT: Excellent at tailoring explanations to different levels of complexity.
+
+Claude: Very adaptable in offering explanations at multiple levels.
+
+Bard: Good at offering universal explanations but may be verbose.
+
+Cohere Command: Provides concise, clear explanations, especially for simple queries.
+
+Meta: Generally strong in universal explanations, though may lack depth in complex topics.
 
 ### Summary of Responses:
 
