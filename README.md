@@ -39,137 +39,122 @@ Sure! Here's a clearly written section for both the **Algorithm** and **Program*
 ### **Algorithm: Design and Develop a Test Scenario and Execute the Prompts under Diverse AI Platforms*
 
 ### Expected Output from Different Platforms:
-### Straightforward Prompts:
-Description: Simple, direct requests that require a factual or clear response.
+1. Straightforward Prompt
+Prompt: "What is the capital of France?"
 
-Example: "What is the capital of France?"
+ChatGPT: The capital of France is Paris.
 
-AI Performance:
+Claude: Paris is the capital of France.
 
-ChatGPT: Quick, accurate responses, often with additional context or detail.
+Bard: The capital of France is Paris.
 
-Claude: Provides clear, concise answers but sometimes adds nuance.
+Cohere Command: Paris is the capital of France.
 
-Bard: Responsive with direct answers but may include context that goes beyond the query.
+Meta: The capital of France is Paris.
 
-Cohere Command: Effective for quick, straightforward answers with fewer embellishments.
+2. Tabular Format Prompting
+Prompt: "Create a table comparing the features of AI models."
 
-Meta: Depends on the model used, but typically provides short and to-the-point responses.
+| **AI Platform** | **Response** |
+|-----------------|--------------|
+| **ChatGPT** | **Feature** | **GPT** | **Claude** | **Bard** | **Cohere Command** |
+| | --------- | ---------- | --------- | -------- | ---------------- |
+| | Natural Language Understanding | Excellent | Excellent | Good | Good |
+| | Contextual Understanding | High | Medium | High | Medium |
+| | Availability | Broad | Limited | Limited | Limited |
+| | Speed | Fast | Fast | Moderate | Fast |
+| **Claude** | **Feature** | **GPT** | **Claude** | **Bard** | **Cohere Command** |
+| | --------- | ---------- | --------- | -------- | ---------------- |
+| | Natural Language Understanding | Very good | Excellent | Good | Medium |
+| | Speed | Fast | Fast | Moderate | Fast |
+| | Data Usage | Broad | Medium | Narrow | Narrow |
+| **Bard** | **Feature** | **GPT** | **Claude** | **Bard** | **Cohere Command** |
+| | --------- | ---------- | --------- | -------- | ---------------- |
+| | Contextual Understanding | Excellent | Good | Very Good | Medium |
+| | Speed | Fast | Fast | Moderate | Fast |
+| | Availability | Broad | Medium | Narrow | Medium |
+| **Cohere Command** | **Feature** | **GPT** | **Claude** | **Bard** | **Cohere Command** |
+| | --------- | ---------- | --------- | -------- | ---------------- |
+| | Speed | Fast | Fast | Moderate | Fast |
+| | Contextual Understanding | Medium | Medium | Good | Medium |
+| | Availability | Medium | Medium | Medium | High |
+3. Missing Word Prompting
+Prompt: "The capital of Italy is ___."
 
-### Tabular Format Prompting:
-Description: Requests for data or information to be presented in a tabular format.
+ChatGPT: The capital of Italy is Rome.
 
-Example: "Create a table comparing the features of AI models."
+Claude: The capital of Italy is Rome.
 
-| **AI Platform**   | **Performance**                                                       |
-|-------------------|----------------------------------------------------------------------|
-| **ChatGPT**       | Capable of structuring data in a readable table, offering detailed formatting. |
-| **Claude**        | Strong with structured data but may not always format neatly.        |
-| **Bard**          | Can present structured data but may not always be in perfect tabular form. |
-| **Cohere Command**| Effective in providing structured responses but may lack advanced formatting. |
-| **Meta**          | The output format can vary depending on the model, but typically straightforward. |
+Bard: The capital of Italy is Rome.
 
-### Missing Word Prompting:
-Description: A prompt where a word or phrase is missing, and the AI needs to fill in the blank.
+Cohere Command: The capital of Italy is Rome.
 
-Example: "The capital of Italy is ___."
+Meta: The capital of Italy is Rome.
 
-AI Performance:
+4. Preceding Question Prompting
+Prompt: "Given that the capital of France is Paris, what is the capital of Italy?"
 
-ChatGPT: Can handle these efficiently and contextually.
+ChatGPT: The capital of Italy is Rome.
 
-Claude: Accurate, filling in the blank with appropriate words based on context.
+Claude: The capital of Italy is Rome.
 
-Bard: Good at filling in the blanks with sensible choices.
+Bard: The capital of Italy is Rome.
 
-Cohere Command: Performs well but might miss contextual subtleties.
+Cohere Command: The capital of Italy is Rome.
 
-Meta: Effectiveness depends on the exact question, but generally capable.
+Meta: The capital of Italy is Rome.
 
-### Preceding Question Prompting:
-Description: Prompts that refer to a previous question or statement.
+5. Comparative Analysis Prompt
+Prompt: "Compare the features of Python and Java."
 
-Example: "Given that the capital of France is Paris, what is the capital of Italy?"
+ChatGPT: Python is known for its simplicity and ease of use, great for beginners, while Java is more complex but offers strong performance for large-scale applications. Python is better for rapid development, and Java excels in performance for enterprise systems.
 
-AI Performance:
+Claude: Python is preferred for its simplicity, while Java is known for robustness and scalability. Python allows faster development times, but Java performs better for large-scale systems.
 
-ChatGPT: Strong memory handling, accurately processing the context of preceding queries.
+Bard: Python is versatile, easy to learn, and suitable for various applications. Java is more complex but highly robust and used in enterprise-level applications. Python is preferred for quick prototyping, while Java is favored for performance.
 
-Claude: Capable, but memory handling can sometimes be less consistent.
+Cohere Command: Python is flexible, great for beginners and quick development. Java is more rigid but performs better in large systems.
 
-Bard: Good at making connections between questions but occasionally lacks continuity.
+Meta: Python is easier for beginners, while Java is more robust and suited for large applications.
 
-Cohere Command: Handles context moderately well, though it may miss nuanced connections.
+6. Experiential Perspective Prompt
+Prompt: "What is the best way to improve focus while studying?"
 
-Meta: Stronger when clear references are made, but may falter with long chains.
+ChatGPT: Minimize distractions by finding a quiet space, use the Pomodoro Technique, break tasks into smaller chunks, take short breaks, stay hydrated, and get enough sleep.
 
-### Comparative Analysis Prompt:
-Description: Requests that require comparing two or more entities, concepts, or ideas.
+Claude: Focus can be improved by organizing your study space, setting clear goals, and using active recall and spaced repetition. Minimizing distractions and taking regular breaks will help.
 
-Example: "Compare the features of Python and Java."
+Bard: The best way to improve focus is to create a distraction-free study environment, set specific goals, and use techniques like Pomodoro. Mindfulness techniques and regular breaks can also be helpful.
 
-AI Performance:
+Cohere Command: Limit distractions, use the Pomodoro Technique, and take regular breaks. Organize study materials and set clear goals to stay focused.
 
-ChatGPT: Excellent at breaking down comparisons with detailed insights.
+Meta: Minimize distractions, set a schedule, and take short, regular breaks to refresh your mind.
 
-Claude: Provides detailed comparisons, emphasizing pros and cons.
+7. Everyday Functioning Prompt
+Prompt: "How do I prepare for a job interview?"
 
-Bard: Offers insightful, well-rounded comparisons.
+ChatGPT: Start by researching the company and the role, practice answers to common interview questions, dress appropriately, ensure your resume is up-to-date, and arrive on time.
 
-Cohere Command: Efficient but may offer more concise comparisons without elaborating on each point.
+Claude: Prepare by learning about the company and the job position. Practice typical interview questions and highlight your skills. Dress appropriately and arrive punctually.
 
-Meta: Good for straightforward comparisons, but deeper analysis might be missed.
+Bard: Research the company and role, practice common questions, prepare examples to showcase your strengths, dress professionally, and arrive early.
 
-### Experiential Perspective Prompt:
-Description: Prompts that ask for subjective or opinion-based responses, often based on personal experience.
+Cohere Command: Research the company, practice your responses to common interview questions, dress appropriately, and be punctual.
 
-Example: "What is the best way to improve focus while studying?"
+Meta: Research the company, prepare answers to common interview questions, dress professionally, and arrive early to make a good impression.
 
-AI Performance:
+8. Universal Prompt Structures
+Prompt: "Explain the process of machine learning in simple terms."
 
-ChatGPT: Provides a balance of subjective and generalized advice.
+ChatGPT: Machine learning is when computers use data to find patterns and make decisions without being explicitly programmed. The more data the computer has, the better it becomes at predictions.
 
-Claude: Delivers nuanced responses, integrating empathy and reasoning.
+Claude: Machine learning allows computers to learn from experience. Data is fed into algorithms that help the computer recognize patterns and make predictions or decisions.
 
-Bard: Strong in providing practical and research-backed suggestions.
+Bard: Machine learning involves computers learning from data to make decisions. By analyzing large amounts of information, computers can identify patterns and make predictions.
 
-Cohere Command: Can offer solid advice but may lack a personal touch.
+Cohere Command: Machine learning is when computers find patterns in data to make decisions or predictions, improving as they process more data.
 
-Meta: Provides responses based on general knowledge, lacking personal perspective.
-
-### Everyday Functioning Prompts:
-Description: Prompts that relate to common, everyday tasks or scenarios.
-
-Example: "How do I prepare for a job interview?"
-
-AI Performance:
-
-ChatGPT: Provides detailed, step-by-step guides.
-
-Claude: Offers practical advice, often more personalized.
-
-Bard: Gives actionable, everyday advice, with examples.
-
-Cohere Command: Functional and direct, but with less personalization.
-
-Meta: Straightforward advice, focusing on general best practices.
-
-### Universal Prompt Structures:
-Description: Prompts with a flexible structure, designed to be broadly applicable.
-
-Example: "Explain the process of machine learning in simple terms."
-
-AI Performance:
-
-ChatGPT: Excellent at tailoring explanations to different levels of complexity.
-
-Claude: Very adaptable in offering explanations at multiple levels.
-
-Bard: Good at offering universal explanations but may be verbose.
-
-Cohere Command: Provides concise, clear explanations, especially for simple queries.
-
-Meta: Generally strong in universal explanations, though may lack depth in complex topics.
+Meta: Machine learning is a process where computers analyze data, find patterns, and use that to make predictions or decisions.
 
 ### Summary of Responses:
 | Prompt Type                     | **ChatGPT**                        | **Claude**                        | **Bard**                         | **Cohere Command**               | **Meta**                          |
