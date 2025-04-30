@@ -64,17 +64,13 @@ Description: Requests for data or information to be presented in a tabular forma
 
 Example: "Create a table comparing the features of AI models."
 
-AI Performance:
-
-ChatGPT: Capable of structuring data in a readable table, offering detailed formatting.
-
-Claude: Strong with structured data but may not always format neatly.
-
-Bard: Can present structured data but may not always be in perfect tabular form.
-
-Cohere Command: Effective in providing structured responses but may lack advanced formatting.
-
-Meta: The output format can vary depending on the model, but typically straightforward.
+| **AI Platform**   | **Performance**                                                       |
+|-------------------|----------------------------------------------------------------------|
+| **ChatGPT**       | Capable of structuring data in a readable table, offering detailed formatting. |
+| **Claude**        | Strong with structured data but may not always format neatly.        |
+| **Bard**          | Can present structured data but may not always be in perfect tabular form. |
+| **Cohere Command**| Effective in providing structured responses but may lack advanced formatting. |
+| **Meta**          | The output format can vary depending on the model, but typically straightforward. |
 
 ### Missing Word Prompting:
 Description: A prompt where a word or phrase is missing, and the AI needs to fill in the blank.
