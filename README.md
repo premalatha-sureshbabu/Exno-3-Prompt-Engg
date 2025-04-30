@@ -36,10 +36,7 @@ Sure! Here's a clearly written section for both the **Algorithm** and **Program*
 
 ---
 
-### **Algorithm: Design and Develop a Test Scenario and Execute the Prompts under Diverse AI Platforms**
-
-### Prompt:
-"Explain how a Convolutional Neural Network (CNN) works and provide an example of its application in image classification."
+### **Algorithm: Design and Develop a Test Scenario and Execute the Prompts under Diverse AI Platforms*
 
 ### Expected Output from Different Platforms:
 ### Straightforward Prompts:
