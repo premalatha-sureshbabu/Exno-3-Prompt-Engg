@@ -179,8 +179,17 @@ Cohere Command: Provides concise, clear explanations, especially for simple quer
 Meta: Generally strong in universal explanations, though may lack depth in complex topics.
 
 ### Summary of Responses:
-
-![Screenshot 2025-04-27 190527](https://github.com/user-attachments/assets/637f5162-79e6-456a-8343-2caa0b67384a)
+| Prompt Type                     | **ChatGPT**                        | **Claude**                        | **Bard**                         | **Cohere Command**               | **Meta**                          |
+|----------------------------------|-----------------------------------|----------------------------------|---------------------------------|----------------------------------|-----------------------------------|
+| **Straightforward Prompts**      | Excellent, clear, and quick       | Clear and concise                | Responsive and detailed         | Efficient but less detailed      | Good, typically straightforward  |
+| **Tabular Format Prompting**    | Excellent formatting capabilities | Moderate, occasionally messy     | Strong but occasionally incomplete | Less adept at formatting         | Varies, typically simple tables  |
+| **Missing Word Prompting**      | Handles context well              | Accurate but less context-aware  | Good at filling blanks          | Solid, but misses nuances        | Effective for simple blanks      |
+| **Preceding Question Prompting**| Strong memory for context         | Moderate memory handling         | Good for short context          | Works well with shorter context  | Can be inconsistent with longer chains |
+| **Comparative Analysis Prompt** | Deep, insightful comparisons      | Good at breaking down pros/cons  | Balanced, insightful            | Concise but lacks depth          | Provides simple comparisons      |
+| **Experiential Perspective Prompt** | Offers practical and empathetic responses | Nuanced and thoughtful          | Practical with real-world focus | Less personal, more factual      | General advice, lacks empathy    |
+| **Everyday Functioning Prompts**| Detailed, step-by-step guides     | Practical, with personal touch   | Actionable, with examples       | Functional, straightforward      | Good general advice              |
+| **Universal Prompt Structures** | Excellent at adapting to needs    | Versatile with multiple contexts | Strong explanations with examples| Concise, clear for simple topics | Clear, but lacks depth in complexity |
+| **Prompt Refinements/Size Limitations** | Handles long prompts well      | Moderate handling of complex inputs | Works well with medium-length   | Handles long prompts, but less detail | Works well with medium-length    |
 
 ### Result:
 Thus the Prompting tools are executed and analysed sucessfully .
